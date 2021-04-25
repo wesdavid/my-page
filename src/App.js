@@ -29,7 +29,7 @@ function App() {
           <h5 style={{ alignItems: 'center', display: 'flex', justifyContent: 'center', color: '#00ccff' }}>ABOUT</h5>
           <h1 style={{ alignItems: 'center', display: 'flex', justifyContent: 'center' }}>Let me introduce myself.</h1>
           <div style={{ marginTop: '30px' }} class="intro-info">
-            <img src={photo} class="rounded-circle float-left" style={{ width: '90px', height: '100px', marginLeft: '-80px', marginRight: '20px' }} alt="Profile Picture" />
+            <img src={photo} class="rounded-circle float-left photo" alt="Profile Picture" />
             <p>Software Engineer with 3 years background in development and analysis of financial projects on Cloud platform. Great technical knowledge, always seeking for technical and personal improvement and growing, fast adaptation to new environments and working groups.</p>
           </div>
         </div>
@@ -60,7 +60,7 @@ function App() {
                 </li>
               </ul>
             </div>
-            <div class="col-md-5 skill-bar" style={{ marginLeft: '15%' }}>
+            <div class="col-md-5 skill-bar" >
               <h3>Skills</h3>
 
               <ul class="list-group list-group-flush">
@@ -98,7 +98,7 @@ function App() {
             </div>
           </div>
           <a href={myCV} download="WeslleyBotelho_CV">
-            <button type="button" class="btn btn-dark" style={{ marginLeft: '40%', marginTop: '20px' }}>DOWNLOAD CV</button>
+            <button type="button" class="btn btn-dark botao-cv">DOWNLOAD CV</button>
           </a>
         </div>
       </section>

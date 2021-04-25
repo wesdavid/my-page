@@ -276,6 +276,18 @@ footer .copyright span:last-child::after {
 .skill-bar {
   margin-left: 15%;
 }
+
+.botao-cv {
+  margin-left: 40%;
+  margin-top: 20px;
+}
+
+.photo {
+  width: 90px;
+  height: 100px;
+  margin-left: -80px;
+  margin-right: 20px;
+}
 /**
  * responsive:
  * about
@@ -291,6 +303,8 @@ footer .copyright span:last-child::after {
 	.intro-info img {
 		height: 7.8rem;
 		width: 7.8rem;
+    float: none;
+		display: inline-block;
 	}
 	.intro-info .lead {
 		padding-left: 11rem;
@@ -306,9 +320,17 @@ footer .copyright span:last-child::after {
 		margin-bottom: 4.2rem;
     /* margin-right: 5.2rem; */
     /* padding-right: 4.0rem; */
-    margin-left: 0%;
+    margin-left: 0;
   }
-  
+
+  .botao-cv {
+    margin-left: 25%;
+  }
+
+  .photo {
+    margin-left: 0;
+    margin-right: 0;
+  }
   /* .skill-bar {
     
   } */
@@ -329,6 +351,16 @@ footer .copyright span:last-child::after {
 		padding-left: 0;
 		text-align: center;
 	}
+  .about-content .info-list {
+		margin-bottom: 4.2rem;
+	}
+
+  .about-content .skill-bar {
+		margin-bottom: 4.2rem;
+    /* margin-right: 5.2rem; */
+    /* padding-right: 4.0rem; */
+    margin-left: 0%;
+  }
 }
 
 
