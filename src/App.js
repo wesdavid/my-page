@@ -19,7 +19,7 @@ function App() {
       </div>
 
       <section id="about">
-        <div class="container col-md-6" style={{ marginTop: '30px' }}>
+        <div class="container col-md-6 section-intro" style={{ marginTop: '30px' }}>
           <ul class="intro-social">
             <li><a href="https://www.linkedin.com/in/weslley-david-004472105"><i class="fa fa-linkedin"></i></a></li>
             <li><a href="https://www.facebook.com/santtos.weslley/"><i class="fa fa-facebook"></i></a></li>
@@ -28,14 +28,14 @@ function App() {
           <br></br>
           <h5 style={{ alignItems: 'center', display: 'flex', justifyContent: 'center', color: '#00ccff' }}>ABOUT</h5>
           <h1 style={{ alignItems: 'center', display: 'flex', justifyContent: 'center' }}>Let me introduce myself.</h1>
-          <div style={{ marginTop: '30px' }}>
+          <div style={{ marginTop: '30px' }} class="intro-info">
             <img src={photo} class="rounded-circle float-left" style={{ width: '90px', height: '100px', marginLeft: '-80px', marginRight: '20px' }} alt="Profile Picture" />
             <p>Software Engineer with 3 years background in development and analysis of financial projects on Cloud platform. Great technical knowledge, always seeking for technical and personal improvement and growing, fast adaptation to new environments and working groups.</p>
           </div>
         </div>
         <div class="container col-md-10" style={{ marginTop: '30px' }}>
-          <div class="row">
-            <div class="col-md-5">
+          <div class="row about-content">
+            <div class="col-md-5 info-list">
               <h3>Profile</h3>
               <ul class="list-group list-group-flush">
                 <li class="list-group-item border-0">
@@ -60,7 +60,7 @@ function App() {
                 </li>
               </ul>
             </div>
-            <div class="col-md-5" style={{ marginLeft: '15%' }}>
+            <div class="col-md-5 skill-bar" style={{ marginLeft: '15%' }}>
               <h3>Skills</h3>
 
               <ul class="list-group list-group-flush">
