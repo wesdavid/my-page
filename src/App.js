@@ -1,6 +1,6 @@
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import photo from './photo.jpeg'
+import photo from './photo-perfil.jpg'
 import background from './background-sp.png'
 import myCV from './CV-WeslleyDavid.pdf'
 
@@ -30,7 +30,7 @@ function App() {
           <h1 style={{ alignItems: 'center', display: 'flex', justifyContent: 'center' }}>Let me introduce myself.</h1>
           <div style={{ marginTop: '30px' }} class="intro-info">
             <img src={photo} class="rounded-circle float-left photo" alt="Profile Picture" />
-            <p>Software Engineer with 3 years background in development and analysis of financial projects on Cloud platform. Great technical knowledge, always seeking for technical and personal improvement and growing, fast adaptation to new environments and working groups.</p>
+            <p>Software Engineer with 5 years background in development and analysis of financial projects on Cloud platform. Great technical knowledge, always seeking for technical and personal improvement and growing, fast adaptation to new environments and working groups.</p>
           </div>
         </div>
         <div class="container col-md-10" style={{ marginTop: '30px' }}>
@@ -56,7 +56,7 @@ function App() {
                 </li>
                 <li class="list-group-item border-0">
                   <strong>Email:</strong> <br></br>
-                  <span>weslley.davidbs@gmail.com</span>
+                  <span>botelho.wd@gmail.com</span>
                 </li>
               </ul>
             </div>
@@ -112,7 +112,7 @@ function App() {
               <h5 style={{ alignItems: 'center', display: 'flex', justifyContent: 'center' }}>Resume</h5>
               <h1 style={{ alignItems: 'center', display: 'flex', justifyContent: 'center' }}>More of my credentials.</h1>
 
-              <p class="lead" style={{ alignItems: 'center', display: 'flex', justifyContent: 'center' }}>Here is a little bit of my journey to date in technology. In total I have 6 years of experience in the area, with a lot of passion for what I do.</p>
+              <p class="lead" style={{ alignItems: 'center', display: 'flex', justifyContent: 'center' }}>Here is a little bit of my journey to date in technology. In total I have 7 years of experience in the area, with a lot of passion for what I do.</p>
 
             </div>
           </div>
@@ -264,7 +264,7 @@ function App() {
 
           <div class="col-md-6" style={{'text-align': 'right'}}>
             <div class="copyright">
-              <span>© Copyright Weslley 2021.</span>
+              <span>© Copyright Weslley 2022.</span>
               <span>Design by <a href="#">Weslley Botelho</a></span>
             </div>
           </div>
