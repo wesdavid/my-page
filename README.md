@@ -7,12 +7,12 @@ My resume created using React.
 
 ## Local installation
 
-´´´bash
+```bash
 npm install
-´´´
+```
 
 ## Local usage
 
-´´´bash
+```bash
 npm start
-´´´
+```
